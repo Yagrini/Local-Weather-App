@@ -1,0 +1,43 @@
+*{margin:0px;}
+body{
+	background-size: cover;
+	background-image: url("http://muraski.com/wp-content/themes/muraski/img/ajax-load.gif");
+	background-repeat: no-repeat;
+	transition: all 1s ease;
+}
+#all{
+	margin:10px auto;
+	background-color: rgba(255,255,255,0.6);
+	box-shadow: 0 0 10px white;
+	width:300px;
+	border-radius: 100px;
+}
+#div0{
+	font-family : "Brush Script Std", "Brush Script MT", cursive;
+	font-size: 60pt;
+	text-align: center;
+	text-shadow: 0px 0px 5px rgba(255,255,255,0.8);
+	margin:80px 0px 20px 0px ;
+}
+#div1{
+	padding:20px 20px 5px 20px;
+}
+#city,#ctemp,#temp{
+	font-family: 'OCR A Std', monospace;
+	font-size: 24pt;
+	color:#002F2F;
+}
+#date,#wtype,#wind{
+	font-family: 'OCR A Std', monospace;
+	font-size: 12pt;
+	color:black;
+}
+#temp:hover{
+	cursor: pointer;
+}
+#div3{
+	padding: 0px 20px 20px 20px;
+}
+#by{
+	padding-bottom: 2px;
+}
